@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+
+
+body{
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    font-optical-sizing: auto;
+    background-color: black;
+}
+
+#ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(255, 183, 0); */
+    width: 95%;
+    height: 50px;
+    gap: 5rem;
+    margin: 12px;
+    margin-right: 23px;
+    border: 2px solid black;
+    border-radius: 23px;
+}
+
+#ul li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* #main ::before {
+    content: "";
+    background: url(./bg1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+} */
+
+#heading {
+    text-align: left;
+    color: white;
+    /* position: absolute; */
+    margin-top: 75px;
+    margin-left: 100px;
+    font-size: 60px;
+    /* background-color: black; */
+    border-radius: 22px;
+}
+
+#heading span{
+    color: orange;
+    background: transparent;
+}
+
+#para {
+    font-size: 31px;
+    /* text-align: center; */
+    width: 50%;
+    margin-left: 100px;
+    color: white;
+    line-height: 40px;
+}
+
+#para span {
+    color: orange;
+}
+
+#home img{
+    position: absolute;
+    top: 120px;
+    right: 0px;
+    float: right;
+    z-index: -1;
+    height: 70%;
+    width: 43%;
+    /* margin-right: 23px; */
+}
+
+#Section  {
+    margin-left: 100px;
+    display: flex;
+}
+
+#Section button{
+    padding: 7px;
+    width: 150px;
+}
+
+#button1{
+    background-color: orange;
+    color: black;
+    transition: 0.5s;
+    border: 2px solid white;
+}
+
+#button2{
+    margin-left: 20px;
+    background-color: black;
+    color: orange;
+    border: 2px solid white;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer p{
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 700px;
+    padding: 12px;
+    margin-top: 32px;
+    font-size: 23px;
+}
